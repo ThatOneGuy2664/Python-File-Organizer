@@ -3,7 +3,7 @@ import shutil
 from collections import defaultdict
 
 file_types = {
-    'Images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp'],
+    'Images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.pixil', '.psd', '.jng'],
     'Documents': ['.txt', '.pdf', '.docx', '.xlsx', '.pptx', '.md', '.doc'],
     'Audio': ['.mp3', '.wav', '.flac', '.ogg', '.aac', '.aif', '.aiff'],
     'Videos': ['.mp4', '.mkv', '.avi', '.mov'],
@@ -17,7 +17,7 @@ file_types = {
     'C': ['.c', '.h'],
     'C++': ['.cpp', '.hpp', '.C', '.cc',  '.cxx'],
     'Cython': ['.pyx'],
-    'HTML': ['.html'],
+    'HTML': ['.html', '.htm', '.html5', '.xhtml'],
     'JavaScript': ['.js'],
     'Executables': ['.exe', '.bat', '.bin', '.sh'],
     'Installers': ['.msi', '.apk'],
