@@ -4,7 +4,7 @@ from collections import defaultdict
 
 file_types = {
     'Images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp'],
-    'Documents': ['.txt', '.pdf', '.docx', '.xlsx', '.pptx'],
+    'Documents': ['.txt', '.pdf', '.docx', '.xlsx', '.pptx', '.md'],
     'Audio': ['.mp3', '.wav', '.flac', '.ogg'],
     'Videos': ['.mp4', '.mkv', '.avi', '.mov'],
     'Archives': ['.zip', '.tar', '.rar', '.7z'],
@@ -50,17 +50,24 @@ def organize_files(directory):
             shutil.move(src, dst)
 
 def main():
-    directory = input("Enter the directory to organize (leave blank to use the current script's directory): ")
-    
-    if directory == "":
-        directory = os.path.dirname(os.path.abspath(__file__))  # Use the script's directory if no input is given
-    
-    if os.path.isdir(directory):
-        print(f"Organizing files in: {directory}")
-        organize_files(directory)
-        print("Files have been organized.")
-    else:
-        print("Invalid directory. Please try again.")
+    while True:
+        directory = input("Enter the directory to organize (leave blank to use the current script's directory, type 'exit' to quit):\n")
+        
+        if directory.lower() == "exit":
+            print("Exiting the program.")
+            break
+        
+        if directory == "":
+            directory = os.path.dirname(os.path.abspath(__file__))  # Use the script's directory if no input is given
+        
+        if os.path.isdir(directory):
+            print(f"Organizing files in: {directory}")
+            organize_files(directory)
+            print("Files have been organized.")
+        else:
+            print("Invalid directory. Please try again.")
+        
+        print("") # Newline
 
 if __name__ == "__main__":
     main()
