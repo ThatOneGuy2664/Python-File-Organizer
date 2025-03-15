@@ -18,7 +18,7 @@ file_types = {
     'C++': ['.cpp', '.hpp', '.C', '.cc',  '.cxx'],
     'Cython': ['.pyx'],
     'HTML': ['.html', '.htm', '.html5', '.xhtml'],
-    'JavaScript': ['.js', 'mjs', 'jsm'],
+    'JavaScript': ['.js', '.mjs', '.jsm'],
     'Executables': ['.exe', '.bat', '.bin', '.sh'],
     'Installers': ['.msi', '.apk'],
     'Other': []
