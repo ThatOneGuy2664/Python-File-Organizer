@@ -21,7 +21,7 @@ file_types = {
     'JavaScript': ['.js', '.mjs', '.jsm'],
     'Executables': ['.exe', '.bat', '.bin', '.sh', '.url', '.lnk'],
     'Installers': ['.msi', '.apk'],
-    '3D Models': ['.blend', '.fbx', '.obj', '.mtl'],
+    '3D Models': ['.blend', '.fbx', '.obj', '.mtl', '.stl', '.3mf', '.ply'],
     'Other': []
 }
 
