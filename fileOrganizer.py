@@ -18,7 +18,7 @@ file_types = {
     'C++': ['.cpp', '.hpp', '.C', '.cc',  '.cxx'],
     'Cython': ['.pyx'],
     'HTML': ['.html', '.htm', '.html5', '.xhtml'],
-    'JavaScript': ['.js', '.mjs', '.jsm'],
+    'JavaScript': ['.js', '.mjs', '.jsm', '.jsx'],
     'Executables': ['.exe', '.bat', '.bin', '.sh', '.url', '.lnk'],
     'Installers': ['.msi', '.apk'],
     '3D Models': ['.blend', '.fbx', '.obj', '.mtl', '.stl', '.3mf', '.ply'],
