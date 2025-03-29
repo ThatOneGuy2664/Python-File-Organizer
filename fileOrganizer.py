@@ -11,7 +11,7 @@ file_types = {
     'Java': ['.java', '.jar', '.class'],
     'Python': ['.py', '.whl', '.egg', '.pyc', '.pyd'],
     'Lua': ['.lua'],
-    'CSS': ['.css'],
+    'CSS': ['.css', '.scss'],
     'TypeScript': ['.ts'],
     'Rust': ['.rs'],
     'C': ['.c', '.h'],
