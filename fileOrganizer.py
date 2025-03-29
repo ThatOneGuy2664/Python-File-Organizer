@@ -20,7 +20,7 @@ file_types = {
     'HTML': ['.html', '.htm', '.html5', '.xhtml'],
     'JavaScript': ['.js', '.mjs', '.jsm', '.jsx'],
     'Executables': ['.exe', '.bat', '.bin', '.sh', '.url', '.lnk'],
-    'Installers': ['.msi', '.apk'],
+    'Installers': ['.msi', '.apk', '.msp', '.mst'],
     '3D Models': ['.blend', '.fbx', '.obj', '.mtl', '.stl', '.3mf', '.ply'],
     'Other': []
 }
